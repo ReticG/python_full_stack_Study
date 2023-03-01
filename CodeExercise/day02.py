@@ -70,3 +70,4 @@
 # 字符串格式化
 # text = "my name is {0}, {1} years' old".format("retic", 21)
 # print(text)
+
