@@ -173,3 +173,72 @@ str(19)			#  19  --> "19"
 ### Python 内存指代
 
 ​	对于 Python 编译器指代的内存而言，每一个变量都是特指。
+
+# Day 02 Python 基础
+
+## 提要
+
+- `if` 条件语句
+- `while` 循环
+- 字符串格式化
+- 运算符（特殊）
+- 计算机中几个基本概念
+    - 进制
+    - 单位
+    - 编码
+- 常见数据类型
+
+## 条件语句
+
+### `if` 条件语句
+
+```python
+if 条件A:
+    pass
+elif 条件B:
+    pass
+...
+...
+else:
+    pass
+```
+
+​	条件语句可以嵌套使用，注意缩进。
+
+## 	`while` 循环
+
+```python
+while 条件:
+    pass
+	...
+```
+
+### 	break 
+
+​	break 不能自己独立使用，只能放在循环的内部。
+
+​	立即跳出当前循环
+
+### 	continue
+
+​	continue 不能自己独立使用，只能放在循环的内部。
+
+​	立即结束当前循环，开始下次循环
+
+## 字符串格式化
+
+​	占位符（可重用）`format`、`%`、`f-string`
+
+``` python
+# 字符串格式化
+text = "my name is {0}, {1} years' old".format("retic", 21)
+
+text = "my name is %s, %d years' old" %("retic", 21)
+
+name = "retic"
+age = 21
+text = f"my name is {name}, {age} years' old"
+
+print(text)
+```
+
